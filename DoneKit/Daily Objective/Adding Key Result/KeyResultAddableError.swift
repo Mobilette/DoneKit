@@ -1,8 +1,8 @@
 //
-//  Entity.swift
+//  KeyResultAddableError.swift
 //  DoneKit
 //
-//  ACMS template version 3.1
+//  Mobilette template version 4.1
 //
 //  Created by Romain Asnar on 3/4/17.
 //   Copyright © 2017 Romain Asnar. All rights reserved.
@@ -10,7 +10,7 @@
 
 import Foundation
 
-public protocol Entity
+public enum KeyResultAddableError: Error
 {
-    var identifier: String { get set }
+    case unknown
 }

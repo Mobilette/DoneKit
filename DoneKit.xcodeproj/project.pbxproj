@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6937BCA51E6D93F90044D540 /* EntityDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937BCA41E6D93F90044D540 /* EntityDatabase.swift */; };
+		6937BCA61E6D93F90044D540 /* EntityDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937BCA41E6D93F90044D540 /* EntityDatabase.swift */; };
+		6937BCA91E6D94570044D540 /* StaticKeyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937BCA81E6D94570044D540 /* StaticKeyResult.swift */; };
+		6937BCAA1E6D94570044D540 /* StaticKeyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6937BCA81E6D94570044D540 /* StaticKeyResult.swift */; };
 		696CFEC51E6B5527000A4E61 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CFEC41E6B5527000A4E61 /* Entity.swift */; };
 		696CFEC71E6B5527000A4E61 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CFEC61E6B5527000A4E61 /* Repository.swift */; };
 		696CFECE1E6B5527000A4E61 /* DoneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696CFEB51E6B5527000A4E61 /* DoneKit.framework */; };
-		696CFED31E6B5527000A4E61 /* DoneKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CFED21E6B5527000A4E61 /* DoneKitTests.swift */; };
 		696CFED51E6B5527000A4E61 /* DoneKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 696CFEB81E6B5527000A4E61 /* DoneKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		696CFEE11E6B5666000A4E61 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696CFEDF1E6B5666000A4E61 /* Nimble.framework */; };
 		696CFEE21E6B5666000A4E61 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696CFEE01E6B5666000A4E61 /* Quick.framework */; };
 		69CBE78B1E6B58960086F358 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CFEC41E6B5527000A4E61 /* Entity.swift */; };
 		69CBE78C1E6B58990086F358 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696CFEC61E6B5527000A4E61 /* Repository.swift */; };
+		69CBE79B1E6B69F60086F358 /* KeyResultAddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7971E6B69F60086F358 /* KeyResultAddable.swift */; };
+		69CBE79C1E6B69F60086F358 /* KeyResultAddableBoundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7981E6B69F60086F358 /* KeyResultAddableBoundaries.swift */; };
+		69CBE79D1E6B69F60086F358 /* KeyResultAddableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7991E6B69F60086F358 /* KeyResultAddableDataModel.swift */; };
+		69CBE79E1E6B69F60086F358 /* KeyResultAddableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE79A1E6B69F60086F358 /* KeyResultAddableError.swift */; };
+		69CBE7A71E6B6B7D0086F358 /* KeyResultAddableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7A61E6B6B7D0086F358 /* KeyResultAddableSpec.swift */; };
+		69CBE7AA1E6B6BA50086F358 /* KeyResultAddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7971E6B69F60086F358 /* KeyResultAddable.swift */; };
+		69CBE7AB1E6B6BA50086F358 /* KeyResultAddableBoundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7981E6B69F60086F358 /* KeyResultAddableBoundaries.swift */; };
+		69CBE7AC1E6B6BA50086F358 /* KeyResultAddableDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7991E6B69F60086F358 /* KeyResultAddableDataModel.swift */; };
+		69CBE7AD1E6B6BA50086F358 /* KeyResultAddableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE79A1E6B69F60086F358 /* KeyResultAddableError.swift */; };
+		69CBE7AF1E6B6F8B0086F358 /* KeyResultAddableOutputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7AE1E6B6F8B0086F358 /* KeyResultAddableOutputMock.swift */; };
+		69CBE7B41E6B765A0086F358 /* KeyResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7B31E6B765A0086F358 /* KeyResultRepository.swift */; };
+		69CBE7B61E6B76760086F358 /* KeyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7B51E6B76760086F358 /* KeyResult.swift */; };
+		69CBE7B71E6B77900086F358 /* KeyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7B51E6B76760086F358 /* KeyResult.swift */; };
+		69CBE7B81E6B77940086F358 /* KeyResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE7B31E6B765A0086F358 /* KeyResultRepository.swift */; };
+		69ED119F1E6CA5770017F912 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED119E1E6CA5770017F912 /* Database.swift */; };
+		69ED11A11E6CA7780017F912 /* StaticDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED11A01E6CA7780017F912 /* StaticDatabase.swift */; };
+		69ED11A31E6CA99F0017F912 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED119E1E6CA5770017F912 /* Database.swift */; };
+		69ED11A41E6CA9A40017F912 /* StaticDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED11A01E6CA7780017F912 /* StaticDatabase.swift */; };
+		69ED11A61E6CACB30017F912 /* KeyResultRepositoryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED11A51E6CACB30017F912 /* KeyResultRepositoryDataModel.swift */; };
+		69ED11A71E6CC5FD0017F912 /* KeyResultRepositoryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ED11A51E6CACB30017F912 /* KeyResultRepositoryDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,18 +52,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6937BCA41E6D93F90044D540 /* EntityDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityDatabase.swift; sourceTree = "<group>"; };
+		6937BCA81E6D94570044D540 /* StaticKeyResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticKeyResult.swift; sourceTree = "<group>"; };
 		696CFEB51E6B5527000A4E61 /* DoneKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DoneKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		696CFEB81E6B5527000A4E61 /* DoneKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneKit.h; sourceTree = "<group>"; };
 		696CFEBE1E6B5527000A4E61 /* DoneKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DoneKit.podspec; sourceTree = SOURCE_ROOT; };
 		696CFEBF1E6B5527000A4E61 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Cartfile; path = ../Cartfile; sourceTree = "<group>"; };
-		696CFEC41E6B5527000A4E61 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = Domain/Entity.swift; sourceTree = "<group>"; };
-		696CFEC61E6B5527000A4E61 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Repository.swift; path = Domain/Repository.swift; sourceTree = "<group>"; };
+		696CFEC41E6B5527000A4E61 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		696CFEC61E6B5527000A4E61 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		696CFEC81E6B5527000A4E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		696CFECD1E6B5527000A4E61 /* DoneKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoneKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		696CFED21E6B5527000A4E61 /* DoneKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneKitTests.swift; sourceTree = "<group>"; };
 		696CFED41E6B5527000A4E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		696CFEDF1E6B5666000A4E61 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		696CFEE01E6B5666000A4E61 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		69CBE7971E6B69F60086F358 /* KeyResultAddable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultAddable.swift; sourceTree = "<group>"; };
+		69CBE7981E6B69F60086F358 /* KeyResultAddableBoundaries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultAddableBoundaries.swift; sourceTree = "<group>"; };
+		69CBE7991E6B69F60086F358 /* KeyResultAddableDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultAddableDataModel.swift; sourceTree = "<group>"; };
+		69CBE79A1E6B69F60086F358 /* KeyResultAddableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultAddableError.swift; sourceTree = "<group>"; };
+		69CBE7A61E6B6B7D0086F358 /* KeyResultAddableSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultAddableSpec.swift; sourceTree = "<group>"; };
+		69CBE7AE1E6B6F8B0086F358 /* KeyResultAddableOutputMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultAddableOutputMock.swift; sourceTree = "<group>"; };
+		69CBE7B31E6B765A0086F358 /* KeyResultRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultRepository.swift; sourceTree = "<group>"; };
+		69CBE7B51E6B76760086F358 /* KeyResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResult.swift; sourceTree = "<group>"; };
+		69ED119E1E6CA5770017F912 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		69ED11A01E6CA7780017F912 /* StaticDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticDatabase.swift; sourceTree = "<group>"; };
+		69ED11A51E6CACB30017F912 /* KeyResultRepositoryDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyResultRepositoryDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +99,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6937BCA31E6D93950044D540 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				6937BCA71E6D94110044D540 /* Key Result */,
+				69ED11A01E6CA7780017F912 /* StaticDatabase.swift */,
+				6937BCA41E6D93F90044D540 /* EntityDatabase.swift */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		6937BCA71E6D94110044D540 /* Key Result */ = {
+			isa = PBXGroup;
+			children = (
+				6937BCA81E6D94570044D540 /* StaticKeyResult.swift */,
+				69CBE7B31E6B765A0086F358 /* KeyResultRepository.swift */,
+				69ED11A51E6CACB30017F912 /* KeyResultRepositoryDataModel.swift */,
+			);
+			path = "Key Result";
+			sourceTree = "<group>";
+		};
 		696CFEA91E6B5527000A4E61 = {
 			isa = PBXGroup;
 			children = (
@@ -86,10 +141,16 @@
 		696CFEB71E6B5527000A4E61 /* DoneKit */ = {
 			isa = PBXGroup;
 			children = (
+				69CBE78D1E6B60520086F358 /* Daily Objective */,
+				69CBE7961E6B68B30086F358 /* Daily Reminder */,
+				69CBE7901E6B63AD0086F358 /* Weekly Report */,
+				69CBE78F1E6B63770086F358 /* Coaching */,
+				69CBE78E1E6B63370086F358 /* Team Collaboration */,
 				696CFEB81E6B5527000A4E61 /* DoneKit.h */,
 				696CFEBE1E6B5527000A4E61 /* DoneKit.podspec */,
 				696CFEBF1E6B5527000A4E61 /* Cartfile */,
 				696CFEC81E6B5527000A4E61 /* Info.plist */,
+				69ED119C1E6CA4050017F912 /* Services */,
 				696CFEC31E6B5527000A4E61 /* Domain */,
 			);
 			path = DoneKit;
@@ -98,16 +159,16 @@
 		696CFEC31E6B5527000A4E61 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				69CBE7B51E6B76760086F358 /* KeyResult.swift */,
 				696CFEC41E6B5527000A4E61 /* Entity.swift */,
-				696CFEC61E6B5527000A4E61 /* Repository.swift */,
 			);
-			name = Domain;
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		696CFED11E6B5527000A4E61 /* DoneKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				696CFED21E6B5527000A4E61 /* DoneKitTests.swift */,
+				69CBE7A41E6B6B310086F358 /* Daily Objective */,
 				696CFED41E6B5527000A4E61 /* Info.plist */,
 			);
 			path = DoneKitTests;
@@ -120,6 +181,112 @@
 				696CFEE01E6B5666000A4E61 /* Quick.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69CBE78D1E6B60520086F358 /* Daily Objective */ = {
+			isa = PBXGroup;
+			children = (
+				69CBE7911E6B66670086F358 /* Adding Key Result */,
+				69CBE7931E6B66A30086F358 /* Editing Key Result */,
+				69CBE7921E6B66890086F358 /* Listing Key Result */,
+				69CBE7941E6B66C00086F358 /* Removing Key Result */,
+			);
+			path = "Daily Objective";
+			sourceTree = "<group>";
+		};
+		69CBE78E1E6B63370086F358 /* Team Collaboration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Team Collaboration";
+			sourceTree = "<group>";
+		};
+		69CBE78F1E6B63770086F358 /* Coaching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coaching;
+			sourceTree = "<group>";
+		};
+		69CBE7901E6B63AD0086F358 /* Weekly Report */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Weekly Report";
+			sourceTree = "<group>";
+		};
+		69CBE7911E6B66670086F358 /* Adding Key Result */ = {
+			isa = PBXGroup;
+			children = (
+				69CBE7971E6B69F60086F358 /* KeyResultAddable.swift */,
+				69CBE7981E6B69F60086F358 /* KeyResultAddableBoundaries.swift */,
+				69CBE7991E6B69F60086F358 /* KeyResultAddableDataModel.swift */,
+				69CBE79A1E6B69F60086F358 /* KeyResultAddableError.swift */,
+			);
+			path = "Adding Key Result";
+			sourceTree = "<group>";
+		};
+		69CBE7921E6B66890086F358 /* Listing Key Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Listing Key Result";
+			sourceTree = "<group>";
+		};
+		69CBE7931E6B66A30086F358 /* Editing Key Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Editing Key Result";
+			sourceTree = "<group>";
+		};
+		69CBE7941E6B66C00086F358 /* Removing Key Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Removing Key Result";
+			sourceTree = "<group>";
+		};
+		69CBE7961E6B68B30086F358 /* Daily Reminder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Daily Reminder";
+			sourceTree = "<group>";
+		};
+		69CBE7A41E6B6B310086F358 /* Daily Objective */ = {
+			isa = PBXGroup;
+			children = (
+				69CBE7A51E6B6B4C0086F358 /* Adding Key Result */,
+			);
+			path = "Daily Objective";
+			sourceTree = "<group>";
+		};
+		69CBE7A51E6B6B4C0086F358 /* Adding Key Result */ = {
+			isa = PBXGroup;
+			children = (
+				69CBE7A61E6B6B7D0086F358 /* KeyResultAddableSpec.swift */,
+				69CBE7AE1E6B6F8B0086F358 /* KeyResultAddableOutputMock.swift */,
+			);
+			path = "Adding Key Result";
+			sourceTree = "<group>";
+		};
+		69ED119C1E6CA4050017F912 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				69ED119D1E6CA41F0017F912 /* Database */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		69ED119D1E6CA41F0017F912 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				6937BCA31E6D93950044D540 /* Static */,
+				696CFEC61E6B5527000A4E61 /* Repository.swift */,
+				69ED119E1E6CA5770017F912 /* Database.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +432,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CBE7B41E6B765A0086F358 /* KeyResultRepository.swift in Sources */,
+				69CBE79D1E6B69F60086F358 /* KeyResultAddableDataModel.swift in Sources */,
+				69ED11A11E6CA7780017F912 /* StaticDatabase.swift in Sources */,
+				69CBE79C1E6B69F60086F358 /* KeyResultAddableBoundaries.swift in Sources */,
+				6937BCA51E6D93F90044D540 /* EntityDatabase.swift in Sources */,
 				696CFEC51E6B5527000A4E61 /* Entity.swift in Sources */,
+				69ED11A61E6CACB30017F912 /* KeyResultRepositoryDataModel.swift in Sources */,
+				6937BCA91E6D94570044D540 /* StaticKeyResult.swift in Sources */,
+				69CBE79B1E6B69F60086F358 /* KeyResultAddable.swift in Sources */,
 				696CFEC71E6B5527000A4E61 /* Repository.swift in Sources */,
+				69ED119F1E6CA5770017F912 /* Database.swift in Sources */,
+				69CBE7B61E6B76760086F358 /* KeyResult.swift in Sources */,
+				69CBE79E1E6B69F60086F358 /* KeyResultAddableError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +452,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69ED11A41E6CA9A40017F912 /* StaticDatabase.swift in Sources */,
+				69ED11A71E6CC5FD0017F912 /* KeyResultRepositoryDataModel.swift in Sources */,
+				69CBE7B81E6B77940086F358 /* KeyResultRepository.swift in Sources */,
+				69ED11A31E6CA99F0017F912 /* Database.swift in Sources */,
+				69CBE7AB1E6B6BA50086F358 /* KeyResultAddableBoundaries.swift in Sources */,
 				69CBE78B1E6B58960086F358 /* Entity.swift in Sources */,
-				696CFED31E6B5527000A4E61 /* DoneKitTests.swift in Sources */,
+				69CBE7AF1E6B6F8B0086F358 /* KeyResultAddableOutputMock.swift in Sources */,
+				69CBE7A71E6B6B7D0086F358 /* KeyResultAddableSpec.swift in Sources */,
+				6937BCA61E6D93F90044D540 /* EntityDatabase.swift in Sources */,
+				69CBE7AC1E6B6BA50086F358 /* KeyResultAddableDataModel.swift in Sources */,
+				69CBE7AA1E6B6BA50086F358 /* KeyResultAddable.swift in Sources */,
 				69CBE78C1E6B58990086F358 /* Repository.swift in Sources */,
+				69CBE7B71E6B77900086F358 /* KeyResult.swift in Sources */,
+				6937BCAA1E6D94570044D540 /* StaticKeyResult.swift in Sources */,
+				69CBE7AD1E6B6BA50086F358 /* KeyResultAddableError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
